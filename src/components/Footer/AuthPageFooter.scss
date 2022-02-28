@@ -1,0 +1,23 @@
+.footer-container {
+    height: 38px;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+    & .footer-message{
+       display: block;
+       font-size: 14px;
+       line-height: 20px;
+       color: #999999;
+    }
+
+    & .footer-link-container{
+      display: block;
+      font-size: 14px;
+      line-height: 20px;
+      color: #006eaf;
+      & a{
+        text-decoration: none;
+      }
+    }
+  }

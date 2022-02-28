@@ -1,0 +1,139 @@
+.signin-container{
+    padding: 0px 30px;
+    height: calc(100vh - 97px);
+    & .signin-user-form{
+        margin-top: 40%;
+        & .header{
+            display: block;
+            margin: 48px 0px 24px 0px;
+            font-size: 22px;
+            line-height: 28px;
+            color: #000000;
+        }
+
+        & .user-input-label{
+            display: block;
+            font-size: 16px;
+            line-height: 22px;
+            color: #3c3c3c;
+            margin: 0px 0px 8px 0px;
+        }
+
+        & .user-input-field{
+            border: 1px solid #3c3c3c;
+            font-size: 16px;
+            line-height: 22px;
+            color: #3c3c3c;
+        }
+
+        & .user-input-error{
+            background-color: #dcdcdc;
+            border: 1px solid #bbbbbb;
+            border-radius: 4px;
+            height: 38px;
+            & span{
+                display: inline-block;
+                padding: 5px;
+            }
+        }
+
+        & .sign-in-btn{
+            & button{
+                height: 38px;
+                font-size: 16px;
+                line-height: 22px;
+                width: 100%;
+                padding: 8px;
+                margin: 8px 0px;
+                color: #ffffff;
+                background: #0696d7;
+                border-radius: 4px;
+            }
+        }
+
+        & .error{
+            border: 1px solid #ee4444;
+        }
+    }
+
+    & .signin-password-form{
+        margin-top: 40%;
+        & .header{
+            display: block;
+            margin: 48px 0px 5px 0px;
+            font-size: 22px;
+            line-height: 28px;
+            color: #000000;
+            text-align: center;
+        }
+
+        & .back-icon{
+            display: inline-block;
+            position: absolute;
+            margin-top: 5px;
+            cursor: pointer;
+            & img{
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+            }
+        }
+
+        & .user-name{
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            color: #808080;
+            margin-bottom: 14px;
+        }
+
+        & .user-input-label{
+            display: block;
+            font-size: 16px;
+            line-height: 22px;
+            color: #3c3c3c;
+            margin: 0px 0px 8px 0px;
+        }
+
+        & .user-input-field{
+            border: 1px solid #3c3c3c;
+            font-size: 16px;
+            line-height: 22px;
+            color: #3c3c3c;
+        }
+
+        & .user-input-error{
+            background-color: #dcdcdc;
+            border: 1px solid #bbbbbb;
+            border-radius: 4px;
+            height: 38px;
+            & span{
+                display: inline-block;
+                padding: 5px;
+            }
+        }
+
+        & .sign-in-btn{
+            & button{
+                height: 38px;
+                font-size: 16px;
+                line-height: 22px;
+                width: 100%;
+                padding: 8px;
+                margin: 8px 0px;
+                color: #ffffff;
+                background: #0696d7;
+                border-radius: 4px;
+            }
+        }
+
+        & .error{
+            border: 1px solid #ee4444;
+        }
+    }
+
+    .button-container{
+        margin-top: 5px;
+    }
+}
